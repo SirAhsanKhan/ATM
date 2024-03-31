@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 console.log("Welcome to the ATM ");
 let balance = 15000;
