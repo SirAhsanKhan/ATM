@@ -73,9 +73,8 @@ if (pinAnswer.pin === myPin) {
     } else if (transferAns.transfer > balance) {
       console.log("your balance is insufficient");
     }
-  }
-  else if (optionAns.option === "check balance") {
-    console.log (`your balance is ${balance}`)
+  } else if (optionAns.option === "check balance") {
+    console.log(`your balance is ${balance}`);
   }
 } else {
   console.log("your pin is incorrect ( please Enter correct pin)");
